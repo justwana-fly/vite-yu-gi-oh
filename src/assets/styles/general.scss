@@ -1,0 +1,38 @@
+@use './partials/variables' as *;
+
+
+$fa-font-path: '../fonts/webfonts';   
+
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+
+
+@import 'bootstrap/scss/bootstrap';
+
+
+@import '@fontsource/montserrat/index.css';
+@import '@fontsource/montserrat/700.css';
+
+
+
+main {
+    background-color: #D48F38;
+}
+// body {
+//     // font-family: $main-font;
+//     // color: $text-color;
+//     // background-image: linear-gradient(to left,
+//     //         transparent 0px,
+//     //         transparent 20px,
+//     //         rgba(#000, 0.02) 20px,
+//     //         rgba(#000, 0.02) 40px),
+            
+//     //     linear-gradient(to bottom,
+//     //         transparent 0px,
+//     //         transparent 20px,
+//     //         rgba(#000, 0.02) 20px,
+//     //         rgba(#000, 0.02) 40px);
+//     // background-size: 40px, 100% 40px;
+// }
